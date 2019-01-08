@@ -30,4 +30,8 @@ public class Satelite {
 		else
 			return true;
 	}
+	
+	public void variaAltura(double desplazamiento) {
+		this.distanciaTierra = this.distanciaTierra + desplazamiento;
+	}
 }
