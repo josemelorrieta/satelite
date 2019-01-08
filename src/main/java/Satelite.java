@@ -34,6 +34,4 @@ public class Satelite {
 	public void variaAltura(double desplazamiento) {
 		this.distanciaTierra = this.distanciaTierra + desplazamiento;
 	}
-	
-	/** añadido desde mi casa xD **/
 }
