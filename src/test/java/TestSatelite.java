@@ -49,4 +49,14 @@ public class TestSatelite {
 		sateliteTest.variaAltura(desplazaTest);
 		assertEquals(sateliteTest.distanciaTierra, 600, 0);
 	}
+
+	@Test
+	public void testEnOrbita() {
+		distanciaTierra = 20;
+		Satelite sateliteTest = new Satelite();
+		sateliteTest.distanciaTierra=distanciaTierra;
+		assertEquals(false, sateliteTest.enOrbita());
+		sateliteTest.distanciaTierra=100;
+		assertEquals(true, sateliteTest.enOrbita());
+	}
 }
