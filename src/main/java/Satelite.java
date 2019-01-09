@@ -40,6 +40,7 @@ public class Satelite {
 		this.meridiano = this.meridiano + variam;
 		/* comment */
 		//me cargo el trabajo de mi compa
+		//conflicto1
 		//asdasdasdadsasdasd
 	}
 }
