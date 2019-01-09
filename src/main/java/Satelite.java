@@ -39,6 +39,7 @@ public class Satelite {
 		this.paralelo = this.paralelo + variap;
 		this.meridiano = this.meridiano + variam;
 		/* comment */
+		//me cargo el trabajo de mi compa
 		//asdasdasdadsasdasd
 	}
 }
