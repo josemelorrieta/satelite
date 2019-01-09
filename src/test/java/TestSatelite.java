@@ -37,4 +37,16 @@ public class TestSatelite {
 		assertEquals(sateliteTest.paralelo, 22, 0);
 		assertEquals(sateliteTest.distanciaTierra, 44, 0);
 	}
+	
+	@Test
+	public void testVariaAltura() {
+		final double desplazaTest = 100;
+		meridiano = 107;
+		paralelo = 200;
+		distanciaTierra = 500;
+		Satelite sateliteTest = new Satelite();
+		sateliteTest.setPosicion(meridiano, paralelo, distanciaTierra);
+		sateliteTest.variaAltura(desplazaTest);
+		assertEquals(sateliteTest.distanciaTierra, 600, 0);
+	}
 }
