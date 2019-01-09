@@ -34,4 +34,9 @@ public class Satelite {
 	public void variaAltura(double desplazamiento) {
 		this.distanciaTierra = this.distanciaTierra + desplazamiento;
 	}
+	
+	void variaPosicion(double variap, double variam) {
+		this.paralelo = this.paralelo + variap;
+		this.meridiano = this.meridiano + variam;
+	}
 }
